@@ -56,6 +56,11 @@ Performance data platform with Vertex AI multi-agent orchestration (A2A protocol
 Connect sources, normalize metrics, forecast/anomaly detection, alert/API/dashboard. Enterprise forecasting infrastructure.
 *Stack: Python, Vertex AI, BigQuery, Cloud Run*
 
+#### [**Wild Ecosystem**](https://github.com/jeremylongshore/wild-rails-ai-ops)
+**10 Ruby gems for running AI agents inside Rails apps under capability control**
+Capability gating, read-only Rails introspection via MCP, administrative tooling MCP server, privacy-aware session telemetry, transcript pipeline, gap analysis, hook lifecycle management, permission analyzer, test flake forensics, and a skill/capability registry. Each gem is independently versioned and tested.
+*Stack: Ruby, Rails, MCP, Intent Solutions Proprietary*
+
 ### Development Tools & Templates
 
 #### [**Resume Realtime**](https://github.com/intent-solutions-io/resume-realtime)
