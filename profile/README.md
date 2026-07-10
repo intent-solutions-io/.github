@@ -2,13 +2,14 @@
 
 <div align="center">
 
-**AI Automation & Google Cloud Platform Experts**
+**Governed AI systems — self-hosted, evaluated, shipped.**
 
-*Transforming business operations through intelligent automation and rapid deployment.*
+*AI you can audit: a governed brain, signed evals, and agent guardrails — running on infrastructure we operate ourselves.*
 
-[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/)
-[![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/vertex-ai)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](https://kernel.org/)
+[![Caddy](https://img.shields.io/badge/Caddy-1F88C0?logo=caddy&logoColor=white)](https://caddyserver.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Claude](https://img.shields.io/badge/Claude-D97757?logo=claude&logoColor=white)](https://claude.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://python.org/)
 
@@ -20,147 +21,104 @@
 
 ## About Us
 
-Intent Solutions delivers **production-ready AI systems** and **Google Cloud Platform infrastructure** that ships in days, not months. We specialize in rapid prototyping, intelligent automation, and enterprise-grade cloud architecture.
+Intent Solutions builds **governed, self-hosted AI systems**. We're the home of the largest Claude Code plugin + skill marketplace, a vendor-neutral AI evaluation lab, and a governed second brain that answers with citations. Everything we run in production lives on infrastructure we operate ourselves — one server, one ingress, no hyperscaler dependency.
 
 ### What We Do
 
-- **🤖 AI Integration** - Vertex AI Gemini, ADK multi-agent systems, A2A protocol orchestration
-- **☁️ Google Cloud Platform** - Firebase, Cloud Functions, Cloud Run, BigQuery, Firestore
-- **⚡ Rapid Deployment** - MVP to production in 24-72 hours with production-grade quality
-- **🔧 B2B Automation** - N8N workflows, API orchestration, intelligent data pipelines
-- **🎯 Enterprise Solutions** - Private LLM stacks, multi-cloud architecture, compliance-ready systems
+- **🧩 Claude Code ecosystem** — the plugin + skill marketplace, validation tooling, and enterprise skill standards
+- **🔬 AI evaluation** — audit-first eval pipelines that measure behavior, sign the result, and gate the ship
+- **🧠 Governed knowledge** — Compile-Then-Govern memory: facts compiled into audited memories, queried with citations
+- **🛡️ Agent governance** — sandboxed execution, human-in-the-loop approval, and signed audit logs for AI coding agents
+- **🚀 Live products** — self-hosted, revenue-generating apps shipped end to end
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Flagship Open Source
 
-### Production Systems
+### [**claude-code-plugins**](https://github.com/jeremylongshore/claude-code-plugins-plus-skills)
+**The Claude Code plugin + skill marketplace — [tonsofskills.com](https://tonsofskills.com)**
+2,500★ · 350+ forks. 400+ plugins, 2,900+ skills, 17 packs — the largest community marketplace for Claude Code, with schema validation and an enterprise skill standard behind it.
 
-#### [**Bob's Brain**](https://github.com/intent-solutions-io/bobs-brain)
-**Specialist AI team for Google Vertex/ADK design systems**
-Multi-agent orchestration with Vertex AI Agent Engine, A2A protocol, Session Cache + Memory Bank. Hard Mode architecture enforcing drift-free agent development.
-*Stack: Python 3.12, Google ADK, Vertex AI Agent Engine, A2A Protocol*
+### [**intent-eval-platform**](https://github.com/intent-solutions-io/intent-eval-platform)
+**Vendor-neutral AI evaluation lab**
+Six composable Apache-2.0 repos converging on one signed **Evidence Bundle** (in-toto attestations → Rekor transparency log). Measure the behavior, sign the result, gate the ship.
 
-#### [**DiagnosticPro**](https://github.com/intent-solutions-io/DiagnosticPro)
-**AI-powered equipment diagnostic platform**
-Professional repair analysis for $4.99. Vertex AI Gemini image analysis, automated PDF reports, Stripe integration.
-*Stack: React, Firebase, Vertex AI Gemini 2.5 Flash, Cloud Functions*
+### **Compile-Then-Govern brain** — [ICO](https://github.com/jeremylongshore/intentional-cognition-os) + [qmd](https://github.com/jeremylongshore/qmd-team-intent-kb)
+**A governed second brain that cites its sources**
+Facts are compiled into governed, audited memories, then queried with `qmd://` citations. The full compile → govern → index → search → audit loop runs green end to end, with every event on an audit trail.
 
-#### [**Hustle**](https://hustlestats.io)
-**Youth sports analytics with AI orchestration**
-Performance data platform with Vertex AI multi-agent orchestration (A2A protocol), telemetry monitoring, and GCP observability stack.
-*Stack: Next.js 15, Firebase, Vertex AI Agent Engine, Cloud Functions*
+### [**claude-code-slack-channel**](https://github.com/jeremylongshore/claude-code-slack-channel)
+**Slack-native governance for AI coding agents**
+Sandboxed execution, human-in-the-loop approval on every tool call, and an Ed25519-signed audit journal. 1,251 tests.
 
-#### [**IntentVision**](https://github.com/intent-solutions-io/intentvision)
-**Universal Prediction Engine**
-Connect sources, normalize metrics, forecast/anomaly detection, alert/API/dashboard. Enterprise forecasting infrastructure.
-*Stack: Python, Vertex AI, BigQuery, Cloud Run*
+### [**agent-governance-plane**](https://github.com/jeremylongshore/agent-governance-plane)
+**Sandbox + governance plane for AI coding agents**
+The control surface that decides what an agent may touch — and proves what it did.
 
-#### [**Wild Ecosystem**](https://github.com/jeremylongshore/wild-rails-ai-ops)
+### [**guidewire-mcp-for-claude**](https://github.com/jeremylongshore/guidewire-mcp-for-claude)
+**Governed carrier-native MCP for Guidewire InsuranceSuite**
+MCP servers + governance harness for PolicyCenter, ClaimCenter, and BillingCenter estates. v0.1.1, 135 tests.
+
+### [**Wild Ecosystem**](https://github.com/jeremylongshore/wild-rails-ai-ops)
 **10 Ruby gems for running AI agents inside Rails apps under capability control**
-Capability gating, read-only Rails introspection via MCP, administrative tooling MCP server, privacy-aware session telemetry, transcript pipeline, gap analysis, hook lifecycle management, permission analyzer, test flake forensics, and a skill/capability registry. Each gem is independently versioned and tested.
-*Stack: Ruby, Rails, MCP, Intent Solutions Proprietary*
-
-### Development Tools & Templates
-
-#### [**Resume Realtime**](https://github.com/intent-solutions-io/resume-realtime)
-**Real-time collaborative resume builder**
-Rust/Leptos SSR with Google-native architecture (Firebase + Cloud Run + Vertex AI + Document AI)
-*Stack: Rust, Leptos, Firebase, Vertex AI*
-
-#### [**Project Template**](https://github.com/intent-solutions-io/project-template)
-**Universal project template with 000-docs standards seed**
-Production-ready project structure with documentation standards, CI/CD templates, and best practices.
+Capability gating, audited execution, MCP servers, privacy-aware telemetry, and gap analysis — opinionated defaults, composable.
 
 ---
 
-## 🛠️ Technology Stack
+## 📦 Live Products
 
-### Cloud & Infrastructure
-- **Google Cloud Platform** - Vertex AI, Firebase, Cloud Functions, Cloud Run, BigQuery, Firestore, Cloud Scheduler
-- **Multi-Cloud** - AWS, Azure, Terraform IaC
-- **Containers** - Docker, Kubernetes (GKE)
+All self-hosted on our own infrastructure, in production today.
 
-### AI & Machine Learning
-- **Vertex AI** - Gemini 2.5 Flash, Agent Engine, A2A Protocol, Reasoning Engine
-- **Google ADK** - Agent Development Kit, multi-agent orchestration
-- **LLM Integration** - Claude API, OpenAI, local models (Ollama)
+| Product | What it is |
+|---|---|
+| [**DiagnosticPro**](https://diagnosticpro.io) | AI-powered diagnostic reports — $4.99 per report or $29/mo. OpenAI gpt-4o analysis, automated PDF delivery, Stripe billing. |
+| [**Scorecard Echo**](https://scorecardecho.com) | Live broadcast dashboard for Atlanta Braves radio — real-time game state for on-air talent, live since April 2026. |
+| [**Hustle**](https://hustlestats.io) | Youth-sports analytics PWA — performance stats for players, parents, and coaches. |
 
-### Backend & API
-- **Languages** - Python 3.12+, TypeScript, Node.js 20, Rust
-- **Frameworks** - FastAPI, Express, Flask, Next.js 15
-- **Databases** - Firestore, PostgreSQL, BigQuery, Redis
+---
 
-### Frontend
-- **Frameworks** - React 19, Next.js 15, Svelte, Leptos (Rust)
-- **Deployment** - Firebase Hosting, Netlify, Vercel
+## 🖥️ Self-Hosted Infrastructure
 
-### Automation
-- **Workflows** - N8N (10+ production systems)
-- **CI/CD** - GitHub Actions, Cloud Build
-- **Orchestration** - Vertex AI Agent Engine, A2A Protocol
+We don't rent our proof — we run it. Our entire production estate is self-hosted on a single hardened VPS behind one Caddy ingress. **GCP fully exited.**
+
+- **7 stacks, 35 containers** — Docker + systemd, one ingress, one box
+- **Project tracking** — self-hosted [Plane](https://projects.intentsolutions.io)
+- **ERP** — self-hosted ERPNext
+- **CRM** — self-hosted Twenty
+- **Analytics** — self-hosted Umami
+- **Products** — DiagnosticPro, Scorecard Echo, and Hustle run on the same estate
+
+The same governance we sell is the governance we live on: signed deploys, monitored ingress, and a documented runbook for every service.
 
 ---
 
 ## 📊 Our Approach
 
 ### Speed DevOps Philosophy
+
 **Traditional consultants:** "We'll have a proposal in 2 weeks."
 **Our approach:** "Here's a working prototype. Let's iterate."
 
-1. **Build MVP** in 24-72 hours
-2. **Deploy to production** early
+1. **Build a working system** in days, not months
+2. **Deploy to production** early — on infrastructure we control
 3. **Iterate** based on real usage
-4. **Document** what actually works
+4. **Govern** what ships: tests, signed evidence, audit trails
 
 ### Core Principles
+
 - ✅ **Practical solutions** over theoretical perfection
 - ✅ **Rapid iteration** over lengthy planning
-- ✅ **Working code** over comprehensive documentation
-- ✅ **Business value** over technical complexity
+- ✅ **Evidence** over claims — sign the result, don't just assert it
+- ✅ **Self-hosted** over hyperscaler lock-in
 - ✅ **Production-ready** from day one
-
----
-
-## 🎯 Services
-
-### AI Automation & Integration
-- Google Vertex AI Gemini, GPT-4, and Claude implementations
-- AI-powered diagnostic and analysis systems
-- Intelligent document processing
-- Natural language interfaces for complex data
-
-### N8N Workflow Automation
-- Enterprise automation without expensive platforms
-- API integrations connecting disparate systems
-- Business process automation (80% manual effort reduction)
-- 24/7 automated workflows
-
-### Cloud Infrastructure
-- Google Cloud Platform architecture and deployment
-- Multi-cloud infrastructure (AWS, Azure, GCP)
-- Terraform infrastructure as code
-- Serverless and containerized applications
-
-### Custom Development
-- Full-stack web applications (React, TypeScript, Next.js)
-- Data pipeline architecture and analytics
-- Real-time collaborative systems
-- Mobile-responsive enterprise applications
 
 ---
 
 ## 👥 Leadership
 
-**Jeremy Longshore** - *Founder & Principal Engineer*
+**Jeremy Longshore** — *Founder & Principal Engineer*
 
-20+ years restaurant operations (Bonefish Grill, Waffle House) → self-taught developer → AI automation specialist. Marine Corps Reservist, Citadel graduate. Based in Gulf Shores, Alabama.
-
-**Expertise:**
-- Google Cloud Platform architecture
-- Vertex AI multi-agent systems
-- Rapid MVP development
-- Enterprise automation
+U.S. Marine Corps veteran and Citadel graduate with 20+ years of multi-unit operations leadership before software. Now a founder/operator who ships governed AI systems — from the Claude Code marketplace to the eval lab to the self-hosted estate that runs it all. Based in Gulf Shores, Alabama.
 
 [GitHub](https://github.com/jeremylongshore) • [LinkedIn](https://linkedin.com/in/jeremylongshore) • [X](https://x.com/asphaltcowb0y)
 
@@ -168,11 +126,11 @@ Production-ready project structure with documentation standards, CI/CD templates
 
 ## 📈 By The Numbers
 
-- **⚡ 24-72 hours** - Typical MVP to production timeline
-- **🤖 10+** - Production N8N automation workflows
-- **☁️ 266** - BigQuery tables in DiagnosticPro data infrastructure
-- **📦 253** - Claude Code plugins maintained
-- **🎯 80%** - Average manual effort reduction through automation
+- **⭐ 2,500** — stars on the Claude Code plugin marketplace
+- **🧩 400+ plugins · 2,900+ skills** — the largest Claude Code skill catalog
+- **🖥️ 7 live stacks / 35 containers** — entirely self-hosted
+- **🔏 Signed evidence** — evals attested with in-toto and logged to Rekor
+- **⚡ Days, not months** — working prototype over 2-week proposal
 
 ---
 
@@ -188,13 +146,13 @@ Production-ready project structure with documentation standards, CI/CD templates
 
 ## 📄 License
 
-Projects are MIT licensed unless otherwise specified. See individual repositories for details.
+Licensing varies by repository — the eval platform ships Apache-2.0; see each repo for details.
 
 ---
 
 <div align="center">
 
-**Intent Solutions** - *AI Automation That Actually Ships*
+**Intent Solutions** - *Governed AI That Actually Ships*
 
 Gulf Shores, Alabama 🇺🇸
 
