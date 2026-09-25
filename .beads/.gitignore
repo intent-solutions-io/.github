@@ -30,3 +30,7 @@ beads.right.meta.json
 !issues.jsonl
 !metadata.json
 !config.json
+
+# bd runtime: local backup exports and dolt server activity stamp
+backup/
+dolt-server.activity
