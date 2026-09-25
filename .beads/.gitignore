@@ -34,3 +34,8 @@ beads.right.meta.json
 # bd runtime: local backup exports and dolt server activity stamp
 backup/
 dolt-server.activity
+
+# Dolt database and server runtime (managed by bd, never versioned)
+dolt/
+dolt-server.*
+dolt-access.lock
