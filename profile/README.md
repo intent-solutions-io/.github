@@ -140,7 +140,7 @@ U.S. Marine Corps veteran and Citadel graduate with 20+ years of multi-unit oper
 - 📧 **Email:** [jeremy@intentsolutions.io](mailto:jeremy@intentsolutions.io)
 - 💼 **LinkedIn:** [jeremylongshore](https://linkedin.com/in/jeremylongshore)
 - 🐦 **X (Twitter):** [@asphaltcowb0y](https://x.com/asphaltcowb0y)
-- 💬 **Discord:** asphaltcowboy
+- 💬 **Community:** [GitHub Discussions](https://github.com/jeremylongshore/tons-of-skills-marketplace/discussions)
 
 ---
 
