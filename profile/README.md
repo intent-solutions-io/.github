@@ -1,5 +1,12 @@
 # Intent Solutions
 
+<!-- intent-select-partner:start -->
+<p><a href="https://intentsolutions.io/"><img src="../assets/brand/claude-select-partner.svg" alt="Intent Solutions: Claude Partner Network Select Services Partner" width="300" height="95" /></a></p>
+
+Intent Solutions is a Claude Partner Network Select Services Partner.
+<!-- intent-select-partner:end -->
+
+
 <div align="center">
 
 **Governed AI systems — self-hosted, evaluated, shipped.**
